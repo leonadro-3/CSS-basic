@@ -1,0 +1,14 @@
+p {
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 14pt;
+    font-family: Helvetica;
+    font-variant: normal;
+    font-style: normal;
+}
+
+/* this code is same css effect */
+/* 
+p {
+    font: bold 12pt/14pt Helvetica
+} */

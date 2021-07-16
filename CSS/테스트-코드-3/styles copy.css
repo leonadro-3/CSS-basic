@@ -1,0 +1,13 @@
+body {
+    font-size: small;
+    background-color: #F0F0F0;
+    color: blue;
+    /* all:initial; */
+    /* all:inherit; */
+    /* all:unset; */
+  }
+  
+  blockquote {
+    background-color: skyblue;
+    color: red;
+  }
