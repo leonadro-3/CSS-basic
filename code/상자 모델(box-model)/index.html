@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <div>
+        <h1>first</h1>
+        <h1>second</h1>
+        <h1>thrid</h1>
+    </div>
+    
+    <!-- block boxes -->
+    <!-- if a box is defined as a block, it will behave in the follwing ways:
+        1. The box will break onto a new line.
+        2. The box will extend in the inline direction to fill the space available in its container.
+        In most cases this means that the box will become as wide as its container, filling up 100% of the space available.
+        3. The width and height properties are respected.
+        4. Padding, margin and border will cause other element to be pushed away from the box. -->
+
+    
+    <!-- display:block의 특성
+        1. block으로 지정하면 벽돌처럼 쌓아진다.
+        2. blcok으로 지정하면 벽돌인데 옆의 빈 공간을 다 쓴다.
+        3. width와 height에 따라 벽돌의 크기도 달라진다.
+        4. 패딩(padding), 여백(margin), 테두리(border)에 따라 blcok 영역(박스)가 다른 영역에 밀린다.
+    -->
+    
+    <!-- Unless we decide to change the display type to inline, elements such as headings(e.g.<h1>) and <p>
+         all block as their outer display type by default.
+    -->
+
+    <!-- 디스플레이 타입을 인라인으로 바꾸지 않는 한 h1이나 p태그같은 block 값을 가지는 요소들은 기본값(block)으로
+         유지한다.
+     -->
+
+
+    <div>
+        <h2>first</h2>
+        <h2>second</h2>
+        <h2>thrid</h2>
+    </div>
+    
+    
+    <!-- inline -->
+    <!-- if a box has an outer display type of inline, then:
+        1. The box will not break onto a new line.
+        2. The width and height properties will not apply.
+        3. Vertical padding, margins, and borders will apply but will not cause other inline boxes
+           to move away from the box.
+        4. Horizontal padding, margins, and borders will apply and will cause other inline boxes
+           to move away from the box  -->
+
+
+    <!-- display:inline의 특성
+        1. inline으로 지정하면 라인별로 영역을 먹지 않는다.
+        2. 높이와 가로 길이를 지정할 수 없다.
+        3. 수직 패딩, 마진, 보더들은 적용되지만 다른 인라인 박스에서 기존의 박스로 멀어지는 것이 아니다.
+        4. 수평 패딩, 여백, 보더들은 적용되고 다른 인라인 박스는 기존의 박스와 멀어진다. 
+    
+        예를들어 a태그의 링크나 span, em, strong과 같은 것들은 기본적으로 인라인 표시의 예시이다.
+    
+    -->
+
+
+
+   
+</body>
+</html>

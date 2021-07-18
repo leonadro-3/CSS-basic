@@ -1,0 +1,11 @@
+nav:nth-child(1) {
+    color: blue;
+}
+
+nav:nth-child(2) {
+    color: burlywood;
+}
+
+nav:nth-child(3) {
+    color: coral;
+}
