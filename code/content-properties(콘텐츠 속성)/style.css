@@ -1,0 +1,41 @@
+q {
+    color: blue;
+  }
+  
+  q::before {
+    content: close-quote;
+  }
+  
+  q::after {
+    content: open-quote;
+  }
+  
+  h1::before  {
+    content: "Chapter ";
+  }
+
+  h1::after {
+      content: " after ";
+  }
+
+
+  /* 
+    CSS content properties (https://www.geeksforgeeks.org/css-content-property/) & (https://developer.mozilla.org/ko/docs/Web/CSS/content)
+    현재 html의 h1 태그의 값들을 보면 5와 6이 있다. 웹 브라우저에서 열어보면 Chapter라는 글자와 함께 Chapter 5라고 되어있는 걸 볼 수 있다. 
+    
+    h1::before {
+        content: "Chapter ";
+    }
+    
+    즉, "Chapter " + h1태그의 컨텐츠가 합쳐진것이다. 이외에도 다양하게 쓸 수 있다.
+    
+  */
+
+  /* 
+    ::after (https://developer.mozilla.org/ko/docs/Web/CSS/::after)
+    선택한 html 태그의 가장 마지막 자식으로 의사 요소(persudo-element)를 하나 생성합니다. 
+    persudo-selector와 구분해야 한다. 또한 persudo-class와 구분해야 한다.
+    
+    (https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html)
+  
+  */
