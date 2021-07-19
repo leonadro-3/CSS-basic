@@ -12,7 +12,7 @@
 5. 전역 속성값 all이 사용되는 경우
 
 
-2021.07.18 & 2021.07.19 (Code 폴더)
+2021.07.18 ~ 2021.07.19 (Code 폴더)
 
 1. 상자 모델(box model)
 2. 의사 클래스 및 의사 코드 (persudo-class)
@@ -22,3 +22,8 @@
   - ::after & ::before
   
   
+2021.07.19 ~ (Online-tutorial)
+
+- 하루 하나씩 인터렉티브한 요소들이 들어간 CSS 작업 결과물을 보고 따라하면서 모르는 개념이나 디자인 방식들을 공부하는게 목표.
+
+01. CSS Responsive Card Hover Effects | Pepsi Card UI Design
