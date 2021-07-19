@@ -12,7 +12,13 @@
 5. 전역 속성값 all이 사용되는 경우
 
 
-2021.07.18 (Code 폴더)
+2021.07.18 & 2021.07.19 (Code 폴더)
 
 1. 상자 모델(box model)
 2. 의사 클래스 및 의사 코드 (persudo-class)
+3. 박스 사이징(box sizing)
+4. 컨텐츠 속성(content-properties)
+  - persudo-class vs persudo-selector vs persudo-element
+  - ::after & ::before
+  
+  
