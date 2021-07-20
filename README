@@ -22,8 +22,33 @@
   - ::after & ::before
   
   
-2021.07.19 ~ (Online-tutorial)
+2021.07.19 ~ (Online-tutorial 폴더)
 
-- 하루 하나씩 인터렉티브한 요소들이 들어간 CSS 작업 결과물을 보고 따라하면서 모르는 개념이나 디자인 방식들을 공부하는게 목표.
+- 하루 하나 이상씩 인터렉티브한 요소들이 들어간 CSS 작업 결과물을 보고 따라하면서 모르는 개념이나 디자인 방식들을 공부하는게 목표.
 
 01. CSS Responsive Card Hover Effects | Pepsi Card UI Design
+  - :after & :before
+  - @media
+  
+02. Creative CSS Loading Animations Effects 02
+  - @keyframes
+  - filter: hue-rotate();
+  
+03. CSS & Javascirpt Background Animation Effects 1 | Animated Background Image Loop Animation
+  - document.getElementsByClassName (Document interface)
+  - for statemet
+  - innerHTML
+  - style.animationDelay
+  - background-attachment: fixed;
+  - `${variable}`
+  - ` vs " vs ' = Grave vs Quotation Mark vs Aposterophe = backtic vs doulbe quote vs single quote 
+  
+04. CSS & Javascirpt Background Animation Effects 2 | Animated Background Image Loop Animation
+  - background-size: cover;
+  - transform-style: preserve-3d;
+  - perspective: 500px;
+  - document.querySelector
+  - setTimeout()
+  - section.classList.add('active')
+  
+  
