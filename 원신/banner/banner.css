@@ -1,0 +1,40 @@
+/* font */
+
+@font-face {
+    font-family: banner-font;
+    src: url(/source/font/BlackHanSans-Regular.ttf);
+}
+
+
+
+.banner {
+    display: flex;
+    height: 20vh;
+    background-color: rgba(17,17,17,0.75);
+    box-shadow: 0 0px 7px 0 rgb(0 0 0 / 70%);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    font-family: 'banner-font';
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+
+.banner > .logo {
+    flex-grow: 1;
+}
+
+.banner > .leak-information {
+    flex-grow: 1.5;
+}
+
+.banner > .genshin-impact-story {
+    flex-grow: 1.5;
+}
+
+.banner > .community {
+    flex-grow: 1.5;
+}
